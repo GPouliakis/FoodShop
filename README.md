@@ -1,1 +1,1 @@
-# FoodShop
+# StylingShop
