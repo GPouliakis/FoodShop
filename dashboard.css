@@ -109,7 +109,8 @@ ul li a:hover{
     box-shadow: 2px 7px 16px 19px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right:40px;
+    margin-right: 0px;
+    margin-right:150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -136,8 +137,8 @@ ul li a:hover{
     box-shadow: 2px 7px 16px 19px;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-right:5px;
-    margin-left:300px;
+    margin-right: 0px;
+    margin-left:150px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
