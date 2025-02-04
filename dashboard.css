@@ -52,7 +52,7 @@ ul li a:hover{
 }
 
 #container1{
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,4 +74,86 @@ ul li a:hover{
     opacity:1.9;
     border:2px solid black;
     border-radius: 80px;
+}
+
+#row1{
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button{
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button:hover{
+    cursor:pointer;
+    background-color: red;
+}
+
+#container2{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#row2{
+    width:24vw;
+    height:23vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:relative;
+    border-radius: 10px;
+}
+
+#row2::before{
+    content: '';
+    background: url("images/best-seller.jpg") no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width:24vw;
+    height: 23vh;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#row3{
+    width:24vw;
+    height:23vh;
+    box-shadow: 2px 7px 16px 19px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right:40px;
+    margin-left:300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:relative;
+    border-radius: 10px;
+}
+
+#row3::before{
+    content: '';
+    background: url("images/Special-offers.jpg") no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    left:0;
+    width:24vw;
+    height: 23vh;
+    z-index: -1;
+    border-radius: 10px;
+    opacity: 0.8;
 }
