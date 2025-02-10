@@ -62,7 +62,7 @@ ul li a:hover{
 
 #container1::before{
     content: '';
-    background : url("images/Shop.jpg") no-repeat center center/cover;
+    background : url("https://t3.ftcdn.net/jpg/06/35/50/48/360_F_635504855_glhMxxTMPPrScmpOosG6rhiwdWz0M49j.jpg") no-repeat center center/cover;
     width: 99.8vw;
     height:70vh;
     position:absolute;
@@ -120,7 +120,7 @@ ul li a:hover{
 
 #row2::before{
     content: '';
-    background: url("images/best-seller.jpg") no-repeat center center/cover;
+    background: url("https://t4.ftcdn.net/jpg/04/14/47/69/360_F_414476918_LCNomK7gtelO9hopebVu1ZkYZQQ1CQBO.jpg") no-repeat center center/cover;
     position: absolute;
     top:0;
     left:0;
@@ -148,7 +148,7 @@ ul li a:hover{
 
 #row3::before{
     content: '';
-    background: url("images/Special-offers.jpg") no-repeat center center/cover;
+    background: url("https://st.depositphotos.com/1029663/1384/i/950/depositphotos_13840733-stock-photo-special-offer.jpg") no-repeat center center/cover;
     position: absolute;
     top:0;
     left:0;
